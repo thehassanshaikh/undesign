@@ -4,8 +4,9 @@ const n = 12;
 
 function Cards() {
     return (
-        <section className='flex justify-center'>
-            <div className='flex justify-evenly flex-wrap w-3/5 gap-4'>
+        <section className='flex justify-center bg-slate-50 py-4'>
+            {/* <div className='flex justify-evenly flex-wrap w-4/5 sm:w-3/5 md:2/3 gap-4'> */}
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-col-6 gap-5'>
                {
                 [...Array(12)].map((_,index)=> (
                     <div key={index}>
