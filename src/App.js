@@ -1,15 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import HeroSectoin from './components/HeroSectoin';
-import Cards from './components/Cards';
+import Home from './components/Home';
+import CategoryPage from './components/CategoryPage';
+import { Route,Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-     <Header />
-     <HeroSectoin />
-     <Cards />
+      <Routes >
+        <Route  path='/' element={<Home />}/>
+        <Route  path='/page' element={<CategoryPage />}/>
+      </Routes>
     </div>
   );
 }
