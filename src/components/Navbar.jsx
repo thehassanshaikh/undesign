@@ -7,17 +7,7 @@ import { useNavigate, Link, useLocation} from "react-router-dom";
 function Navbar() {
     let navigate  = useNavigate();
     const Location = useLocation();
-    const [home,setHome] = useState();
-
-    useEffect(()=>{
-        if(Location.pathname == '/'){
-            setHome(true);
-        }else(
-            setHome(false)
-        )
-    })
-
-    console.log(home);
+    const [home,setHome] = useState(false);
   return (
     <nav className='py-4 px-8 border-b '>
         <div className='flex justify-between items-center'>

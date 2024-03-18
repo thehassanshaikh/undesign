@@ -3,6 +3,7 @@ import Header from './Header';
 import HeroSectoin from './HeroSectoin';
 import Cards from './Cards';
 import Navbar from './Navbar';
+import NotFound from './NotFound';
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Navbar />
             <HeroSectoin />
             <Cards />
+            <NotFound />
         </>
     )
 }
