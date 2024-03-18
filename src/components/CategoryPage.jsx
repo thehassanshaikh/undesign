@@ -1,8 +1,11 @@
 import React from 'react'
 import Header from './Header'
 import HeroSection from './HeroSectoin'
+import {useLocation} from 'react-router-dom'
 
 function Page() {
+  const location = useLocation();
+  console.log(location)
   return (
     <>
       <Header />
