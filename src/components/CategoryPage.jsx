@@ -2,13 +2,14 @@ import React from 'react'
 import Header from './Header'
 import HeroSection from './HeroSectoin'
 import {useLocation} from 'react-router-dom'
+import Navbar from './Navbar';
 
 function Page() {
   const location = useLocation();
   console.log(location)
   return (
     <>
-      <Header />
+      <Navbar />
       <HeroSection />
       <section className='bg-slate-50 p-2 pt-1 md:p-28 md:pt-10' >
         <div className='h-100vh w-auto bg-white p-1 md:p-10'>
