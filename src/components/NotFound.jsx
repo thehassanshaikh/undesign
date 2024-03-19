@@ -1,12 +1,17 @@
+import HeroSectoin from "./HeroSectoin";
 import Navbar from "./Navbar";
 import React from 'react'
 
 
 function NotFound(){
+
+    return (
     <>
     <Navbar />
-    <h1>404</h1>
+    <HeroSectoin title="404 NOT FOUND"/>
     </>
+   
+    )
    
 }
 

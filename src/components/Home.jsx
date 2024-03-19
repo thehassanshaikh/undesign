@@ -9,7 +9,7 @@ function Home() {
     return (
         <>
             <Navbar />
-            <HeroSectoin />
+            <HeroSectoin title="Unifying Creativity, Connecting Communities."/>
             <Cards />
             <NotFound />
         </>

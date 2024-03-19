@@ -10,7 +10,7 @@ function Page() {
   return (
     <>
       <Navbar />
-      <HeroSection />
+      <HeroSection title="Category Page" />
       <section className='bg-slate-50 p-2 pt-1 md:p-28 md:pt-10' >
         <div className='h-100vh w-auto bg-white p-1 md:p-10'>
           {
